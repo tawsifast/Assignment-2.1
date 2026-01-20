@@ -426,7 +426,6 @@ margin-bottom: 40px;
     background-image: url(./assets/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-
     background-position: center ;
      /* padding: 80px 20px 40px; */
     height: 412px;
@@ -453,7 +452,7 @@ margin-bottom: 40px;
   margin-bottom: 32px;
 }
 .last-word{
-    
+  margin-top: 20px;
   font-size: 16px;
   line-height: 24px;
   color: #FAFAFA;
@@ -486,6 +485,9 @@ margin-bottom: 40px;
            /* mobile device */
 
 @media screen and (max-width:576px){
+    .navbar h1{
+        font-size: 2rem;
+    }
 .word {
     display: none;
 }
