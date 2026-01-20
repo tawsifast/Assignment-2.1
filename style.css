@@ -21,9 +21,8 @@ body{
     cursor: pointer;
     vertical-align: middle;
 }
-.btn-invi:hover.stars {
-      display: block;
-      filter:drop-shadow(0 0 10px #fffdef);
+.btn-invi:hover {
+     background-color: #FAFAFA;
 }
 .btn-invi{
     display: inline-flex;
